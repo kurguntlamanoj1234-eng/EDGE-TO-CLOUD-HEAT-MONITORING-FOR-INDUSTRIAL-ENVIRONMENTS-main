@@ -149,7 +149,7 @@ void esp01_connectAP()
         Write_str_LCD("AT+CWJAP"); // Display command
         delay_ms(1000);
 
-        UART0_Str("AT+CWJAP=\"Roja\",\"roja@12345\"\r\n");
+        UART0_Str("AT+CWJAP=\"vivoy11\",\"manoj1234\"\r\n");
 
         i=0; memset(buff,'\0',200);
         while(i<4);
